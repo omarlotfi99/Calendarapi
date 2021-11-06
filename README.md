@@ -1,6 +1,6 @@
 # Calendarapi
 calendar api with flask 
-1/run the server by taping "python API.py" and open postman to test the api 
+1/open your local terminal on the IDE and type "pip install flask" after that run the server by taping "python API.py" and open postman to test the api 
 #posting an event
 2/run the following api path on postman http://127.0.0.1:8000/insertEvent and choose the POST method and put the following Json object in the body: 
 
@@ -28,5 +28,5 @@ calendar api with flask
 }
 
 3/run the following api path on post man http://127.0.0.1:8000/getEventList and choose the GET method: 
-this witll return all the events of a specific calendar 
+this will return all the events of a specific calendar 
 
